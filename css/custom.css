@@ -63,18 +63,25 @@ h1 {
     background-color: grey;
 }
 
-/* ESSAI GRID DE MACON 
+/* ESSAI GRID DE MACON  */
 
-.grid-item {
-    float: left;
-    width: 80px;
-    height: 60px;
-    border: 2px solid hsla(0, 0%, 0%, 0.5);
-  }
-  
-  .grid-item--width2 { width: 160px; }
-  .grid-item--height2 { height: 140px; }
-  */
+.photos{
+    margin: 0 auto;
+}
+.photo-sizer{
+    width: 400px;
+}
+.photo-item{
+    width: 400px;
+    padding: 10px;
+}
+.photo-item img{
+    width: 100%;
+    height: auto;
+}
+.photo-item--width2{
+    width: 800px;
+} 
 
 #contact {
     padding: 20px 0;
